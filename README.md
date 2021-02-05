@@ -1,2 +1,2 @@
-# AliyaWebDev.github.io
+# aliyakm.github.io
 Web Development
