@@ -1,0 +1,253 @@
+.body {
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+header {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    padding-bottom: 7px;
+}
+
+.header {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header a:hover {
+    border-bottom: 2.5px solid black;
+}
+
+.header a.login{
+    border-bottom: none;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 10px 10px 20px;
+}
+
+.rightheader {
+    float: right;
+}
+
+.leftheader {
+    float: left;
+}
+
+#microsoftproducts{
+    float: right;
+    padding: 0px 10px 10px 10px;
+    border: none;
+}
+
+.microsoftlogo {
+    float: left;
+    width: 100px;
+    padding: 8px 0px 0px 5px;
+}
+
+.fon {
+    display: block;
+    width: 99.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fon1 {
+    padding-bottom: 45px;
+}
+
+.onfon1 {
+    position: absolute;
+    top: 27%;
+    width: 520px;
+    margin-left: 81px;
+    font-family: sans-serif;
+}
+
+.onfon1 h1{
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.onfon1 p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.onfon1 input:hover {
+    text-decoration: underline;
+}
+
+.onfonbutton {
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.onfon1button {
+    width: 170px;
+}
+
+.onfon2button {
+    width: 130px;
+}
+
+.sixpeople {
+    background-color: black;
+    color: white;
+}
+
+.oneperson {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 73.5%;
+    margin-left: 190px;
+}
+
+.microsoftlist {
+    float: left;
+}
+
+.microsoftlist img {
+    width: 320px;
+}
+.microsoftlist table {
+    padding: 0px 2px 50px 2px; 
+}
+
+.microsoftlist td {
+    font-family: sans-serif;
+    padding-right: 22px;
+    font-size: 15px;
+}
+
+.microsoftlist .listhead {
+    font-weight: bold;
+    padding: 30px 0px 5px 0px;
+    font-size: 18px;
+}
+
+.microsoftlist table thead th{
+    display: none;
+}
+
+.list1link {
+    color:rgb(53, 53, 199);
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.list1link:hover {
+    border-bottom: 3px solid rgb(53, 53, 199);
+    cursor: pointer;
+}
+
+.onfon2 {
+    position: absolute;
+    top: 155%;
+    width: 520px;
+    margin-left: 81px;
+    font-family: sans-serif;
+}
+
+.onfon2 input:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+    padding: 23px 0px 0px 2.5px;
+}
+
+body footer {
+    background-color: rgb(235, 235, 235);
+    left: 0;
+    bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ulinline {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.ulinline ul{
+    display: inline-table;
+    padding: 20px 106px 30px 0px;
+    list-style-type: none;
+    color: rgb(88, 88, 88);
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.ulinline .ulhead {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.ulinline .ulhead:hover {
+    text-decoration: none;
+    cursor: auto;
+}
+
+.ulinline li {
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.ulinline li:hover, .lastulfooter li:hover, .language:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .nounderline:hover {
+    text-decoration: none;
+}
+
+.lastulfooter {
+    list-style-type: none;
+    padding: 0px 0px 30px 650px;
+    color: rgb(88, 88, 88);
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.lastulfooter li {
+    padding: 0px 0px 5px 20px ;
+    display: inline;
+}
+
+footer .language {
+    position: absolute;
+    padding: 0px 0px 30px 70px;
+    color: rgb(88, 88, 88);
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.globe {
+    width: 20px;
+    padding: 0px 5px 0px 5px;
+}
+
+.busketicon {
+    width: 15px;
+}
+
+.searchicon {
+    width: 12px;
+    transform: scaleX(-1);
+}
