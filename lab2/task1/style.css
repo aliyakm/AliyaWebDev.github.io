@@ -122,12 +122,22 @@ footer {
     font-family: Arial;
     text-align: left;
     margin-left: 29.2%;
+    padding-top: 10px;
 }
 
-.footertext a {
+.footertext a, .footertext p {
+    color: darkgray;
+    font-size: 14px;
+    text-decoration: none;
     padding: 10px;
 }
 
-.footertext p {
-    padding: 10px;
+.footertext a:hover{
+    text-decoration: underline;
+}
+
+.footerline {
+    border-top: 1px solid rgb(206, 206, 206);
+    padding-top: 10px;
+    width: 640px;
 }
